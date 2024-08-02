@@ -1,0 +1,14 @@
+let altura = 5;
+let largura = 15;
+let area = altura * largura;
+console.log("Área:", area);
+let perimetro = 2 * (altura + largura);
+console.log("Perímetro:", perimetro);
+let multiplicacao = altura * largura;
+console.log("Multiplicação:", multiplicacao);
+let divisao = largura / altura;
+console.log("Divisão:", divisao);
+let resto = largura % altura;
+console.log("Resto da divisão:", resto);
+let hipotenusa = Math.sqrt(Math.pow(altura, 2) + Math.pow(largura, 2));
+console.log("Hipotenusa:", hipotenusa);
